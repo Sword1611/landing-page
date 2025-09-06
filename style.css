@@ -2,18 +2,83 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: solid 1px red;
 }
 
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
 }
 
 .header {
-    color: #1F2937;
-    
+  display: flex;
+  min-height: 400px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 25px 100px;
+}
+
+/* Left side of the header */
+.header-logo {
+  margin-bottom: 60px;
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.hero-main-text{
+  font-size: 48px;
+}
+
+.hero-subtext {
+  font-size: 18px;
+}
+
+/* Right side of the header  */
+
+.header-links ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.header-image {
+  background-color: red;
+  width: 100px;
+}
+
+.content {
+  flex: 1;
+}
+
+.card-section {
+  min-height: 300px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  min-height: 200px;
+}
+
+.call-to-action-section {
+  min-height: 300px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 40px;
+  flex-shrink: 0;
 }
