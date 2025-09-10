@@ -51,7 +51,7 @@ body {
 }
 
 /*---------------------------------
-|          HERO HEADER            |
+|       HERO HEADER SECTION       |
 ---------------------------------*/
 
 .header-hero {
@@ -101,7 +101,7 @@ button.signup-button {
 
 .card-section {
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .cards-title{
@@ -134,8 +134,25 @@ button.signup-button {
   margin-top: 50px;
 }
 
+/*---------------------------------
+|          QUOTE SECTION          |
+---------------------------------*/
 
+.quote-section{
+  background-color: #e5e7eb;
+  padding: 200px 400px;
+}
 
+.quote,
+.bible-verse{
+  font-size: 36px;
+  display: flex;
+}
+
+.bible-verse {
+  justify-content: flex-end;
+  font-weight: 900;
+}
 
 /*---------------------------------
 |          FOOTER SECTION          |
