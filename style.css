@@ -14,12 +14,14 @@ body {
   justify-content: space-between;
 }
 
+/*---------------------------------
+|           NAV HEADER            |
+---------------------------------*/
+
 .header-container {
   background-color: #1f2937;
   padding: 0px 300px;
 }
-
-/* nav header side */
 
 .header-nav {
   display: flex;
@@ -48,7 +50,10 @@ body {
   color: #e5e7eb;
 }
 
-/* Hero header side */
+/*---------------------------------
+|          HERO HEADER            |
+---------------------------------*/
+
 .header-hero {
   display: flex;
   padding: 100px;
@@ -87,9 +92,54 @@ button.signup-button {
 }
 
 .hero-image {
-  width: 600px
+  width: 600px;
 }
 
+/*---------------------------------
+|          CARDS SECTION          |
+---------------------------------*/
+
+.card-section {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.cards-title{
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-top: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.card{
+  max-width: 300px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-info {
+  text-wrap: wrap;
+}
+
+.credits {
+  margin-top: 50px;
+}
+
+
+
+
+/*---------------------------------
+|          FOOTER SECTION          |
+---------------------------------*/
 
 .footer {
   text-align: center;
